@@ -1,0 +1,14 @@
+country,security_type,security_name,investment_date,purchase_price,quantity,currency
+Australia,Stock,DRO,2025-01-01,100.82,27,USD
+Australia,Stock,FAIR,2025-01-01,87.55,5,USD
+Australia,Stock,IOO,2025-01-01,115.00,1,USD
+Australia,Stock,NDQ,2025-01-01,178.00,5,USD
+Australia,Stock,WES,2025-01-01,168.66,2,USD
+Australia,Stock,ZIP,2025-01-01,200.56,73,USD
+USA,Stock,AMZN,2025-01-01,165.00,0.82929,AUD
+USA,Stock,CRM,2025-01-01,174.68,0.9561,AUD
+USA,Stock,DRIV,2025-01-01,330.00,13.7842,AUD
+USA,Stock,IBM,2025-01-01,104.00,0.40142,AUD
+USA,Stock,NVDA,2025-01-01,394.00,3.13299,AUD
+USA,Stock,QCOM,2025-01-01,204.00,1.27427,AUD
+USA,Stock,ZS,2025-01-01,154.00,0.75964,AUD

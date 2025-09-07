@@ -1,0 +1,9 @@
+country,security_type,security_name,investment_date,purchase_price,quantity,currency
+USA,Stock,AAPL,2023-01-15,150.25,10,USD
+USA,ETF,SPY,2023-02-01,380.50,5,USD
+India,Stock,RELIANCE.NS,2023-03-10,2450.75,20,INR
+USA,Mutual Fund,VTSAX,2023-04-05,95.20,50,USD
+Germany,Stock,SAP.DE,2023-05-12,110.30,15,EUR
+USA,Real Estate,VNQ,2023-06-20,85.45,25,USD
+Japan,Stock,7203.T,2023-07-08,1250.00,8,JPY
+UK,Stock,TSCO.L,2023-08-15,275.80,30,GBP
