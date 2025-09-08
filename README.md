@@ -1,15 +1,37 @@
-# Local AI Portfolio
+# Portfolio Investment Tracker
 
-Local AI Portfolio is a fully client-side Next.js application that lets you manage and showcase your portfolio online. All data is stored locally in your browser, and you can use your own OpenAI API key for AI-powered text generation.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20App-blue?style=for-the-badge&logo=vercel)](https://simple-personal-portfolio-1.netlify.app/investments)
+[![Build Status](https://img.shields.io/badge/Build-Passing-green?style=for-the-badge&logo=github)](https://github.com/mohitkr05/Portfolio)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-## Features
+A comprehensive Portfolio Investment Tracker built with Next.js that provides AI-powered investment analysis, multi-currency support, and advanced portfolio analytics. Track your investments, analyze performance, and get intelligent recommendations all in one place.
 
-- **Portfolio Dashboard:** Add, edit, and delete portfolio items (projects, blog posts, skills).
-- **Investment Portfolio Tracker:** Upload CSV files to track investments, calculate profit/loss, analyze diversification, and get AI-powered recommendations.
-- **Public Portfolio View:** A modern landing page to showcase your work.
-- **AI Integration:** Generate portfolio content and investment recommendations with OpenAI.
-- **Local Data Storage:** All data is stored in your browser (IndexedDB).
-- **Import/Export:** Back up and restore your portfolio with JSON/CSV files.
+## 🚀 **[Live Demo](https://simple-personal-portfolio-1.netlify.app/investments)**
+
+## ✨ Key Features
+
+### 📊 **Investment Tracking & Analytics**
+- **CSV Import/Export:** Easy portfolio setup with template-based CSV uploads
+- **Real-time Market Data:** Live price updates from multiple APIs (Alpha Vantage, Polygon.io)
+- **Multi-Currency Support:** Track investments across 9+ currencies with real-time conversion
+- **Performance Analysis:** Detailed profit/loss calculations with percentage returns
+- **Investment Type Filtering:** Analyze by stocks, ETFs, bonds, crypto, and more
+
+### 🤖 **AI-Powered Intelligence** 
+- **Smart Recommendations:** OpenAI-powered investment suggestions based on your portfolio
+- **Risk Assessment:** Automated portfolio risk scoring and diversification analysis
+- **Performance Insights:** Identify top performers and underperformers automatically
+
+### 🎨 **Modern Dashboard**
+- **Visual Analytics:** Beautiful charts and performance indicators
+- **Responsive Design:** Works perfectly on desktop, tablet, and mobile
+- **Dark/Light Mode:** Automatic theme switching
+- **Professional UI:** Built with ShadCN UI and Tailwind CSS
+
+### 🔒 **Privacy & Security**
+- **Local Data Storage:** All data stored securely in your browser (IndexedDB)
+- **No Server Required:** Fully client-side application
+- **Your API Keys:** Use your own OpenAI and market data API keys
 
 ## Tech Stack
 

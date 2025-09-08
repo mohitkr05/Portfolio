@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { TrendingUp, PieChart } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -21,15 +21,8 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
             href="/" 
             className="flex items-center space-x-3 px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg transition-colors group"
           >
-            <PieChart className="w-5 h-5 text-gray-500 group-hover:text-blue-600 dark:group-hover:text-blue-400" />
-            <span className="font-medium">Dashboard</span>
-          </Link>
-          <Link 
-            href="/investments" 
-            className="flex items-center space-x-3 px-4 py-3 text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg transition-colors group"
-          >
             <TrendingUp className="w-5 h-5 text-gray-500 group-hover:text-blue-600 dark:group-hover:text-blue-400" />
-            <span className="font-medium">Investments</span>
+            <span className="font-medium">Portfolio Dashboard</span>
           </Link>
         </nav>
       </div>
