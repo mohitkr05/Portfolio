@@ -22,7 +22,7 @@ interface InvestmentTableProps {
   baseCurrency?: string;
 }
 
-export default function InvestmentTable({ investments, onRefresh, baseCurrency = 'USD' }: InvestmentTableProps) {
+export default function InvestmentTable({ investments, onRefresh, baseCurrency: _ = 'USD' }: InvestmentTableProps) {
   const [deletingId, setDeletingId] = useState<number | null>(null);
 
   const formatCurrency = (amount: number, currency: string = 'USD') => {

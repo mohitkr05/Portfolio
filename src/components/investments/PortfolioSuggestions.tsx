@@ -116,7 +116,7 @@ export default function PortfolioSuggestions({ investments, metrics }: Portfolio
             return;
           }
         }
-      } catch (error) {
+      } catch {
         console.warn('OpenAI API not available, using fallback suggestions');
       }
 
